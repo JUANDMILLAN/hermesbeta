@@ -1,29 +1,40 @@
 <?php
 
-  Class ControladorUsuarios{
+// session_start();
+
+require_once "modelos/usuarios.modelo.php";
+
+class ControladorUsuarios{
+
     public function ctrIngresoUsuario(){
-      if(isset($_POST["ingUsuario"])){
-        if(preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingUsuario"]) && preg_match('/^[a-zA-Z0-9]+$/', $_POST["ingPassword"])){
+        if (isset($_POST["IngUsuario"])) {
+            if (preg_match('/^[a-zA-Z0-9]+$/', $_POST["IngUsuario"]) &&
+                preg_match('/^[a-zA-Z0-9]+$/', $_POST["IngPassword"])) {
 
-          $tabla = "usuarios";
-          $item = "usuario";
-          $valor = $_POST["ingUsuario"];
+                $tabla = "usuarios";
+                $item = "usuario";
+                $valor = $_POST["IngUsuario"];
 
-          $respuesta = ModeloUsuarios::mdlMostrarUsuarios($tabla, $item, $valor);
-          // var_dump($respuesta["clave"]);
+                $respuesta = ModeloUsuarios::mdlMostrarUsuarios($tabla, $item, $valor);
 
-          if($respuesta["usuario"] == $_POST["ingUsuario"] && $respuesta["clave"] == $_POST["ingPassword"]){
-            $_SESSION["iniciarSesion"] = "ok";
-            var_dump($_SESSION["iniciarSesion"]);
-            echo '<script>
-              window.location = "inicio";
-              </script>';
-          } else {
-            echo '<div class="alert alert-danger mt-2">Error al ingresar el usuario, vuelve a intentarlo</div>';
-          }
+                
+
+                if ($respuesta["usuario"] == $_POST["IngUsuario"] &&
+                    $respuesta["clave"] == $_POST["IngPassword"]) {
+
+                    $_SESSION["iniciarsesion"] = "ok";
+                    
+                        echo '<script>
+                            window.location = "inicio";
+                        </script>';
+                } else {
+                    echo '<div class="alert alert-danger">Error al ingresar, vuelve a intentarlo</div>';
+                }
+            }
         }
-      }
-    }
-  }
 
-?>
+
+    }
+    
+    
+}

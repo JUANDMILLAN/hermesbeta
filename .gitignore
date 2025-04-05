@@ -1,5 +1,5 @@
 #template
-AdminLTE/
+adminLTE/
 
 # System / Log files
 *.DS_Store
@@ -72,3 +72,4 @@ TODO
 test.html
 ad.js
 /.cache/
+
