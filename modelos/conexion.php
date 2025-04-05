@@ -1,11 +1,9 @@
 <?php
-
-  Class Conexion{
+class conexion{
     static public function conectar(){
-      $link = new PDO("mysql:host=localhost;dbname=hermes_db", "root", "");
-      $link -> exec("set names utf8");
-      return $link;
+        $link = new PDO("mysql:host=localhost;dbname=pruebas","root","");
+        $link -> exec("set names utf8");
+        return $link;
     }
-  }
-
+}
 ?>

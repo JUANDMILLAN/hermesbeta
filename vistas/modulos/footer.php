@@ -1,10 +1,6 @@
-<div class="content-wrapper">
-    <section class="content-header"></section>
-</div>
-
-<footer class="main-footer">
+<footer class="main-footer" style="position: fixed; bottom: 0; width: 100%; background: #f8f9fa; text-align: center; padding: 10px;">
     <div class="float-right d-none d-sm-block">
-      <b>Version</b> 0.0.1
+        <b>SENA</b> Hermes
     </div>
-    <strong>Copyright &copy; 2025 <a href="https://adminlte.io">Herramientas y equipos reservables para el manejo estratégico de servicios</a>.</strong> All rights reserved.
+    <strong>2847523 &copy; HERMES <a href="https://adminlte.io">2847523</a>.</strong> Herramientas y equipos reservables para el manejo estratégico de servicios
 </footer>
