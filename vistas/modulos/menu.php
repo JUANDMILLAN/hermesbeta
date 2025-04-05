@@ -1,4 +1,4 @@
-  <!-- Main Sidebar Container -->
+<!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="../../index3.html" class="brand-link">
@@ -52,160 +52,38 @@
             </li>               
               
 
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-user-alt"></i>
+            <p>
+              administrar
+              <i class="fas fa-angle-left right"></i>
+              <span class="badge badge-info right">6</span>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="fas fa-home"></i>
-                <p>
-                  Inicio
-                  
-                </p>
+              <a href="sedes" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>sedes</p>
               </a>
-              <!-- <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="../../index.html" class="nav-link">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Dashboard v1</p>
-                  </a>
-                </li> -->
-              
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="fas fa-user"></i>
-                <p>
-                  Usuarios
-                  <i class="fas fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="usuarios" class="nav-link">
-                    
-                    <p>Usuarios</p>
-                  </a>
-                </li>
-              </ul>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="permisos" class="nav-link">
-                    
-                    <p>Permisos</p>
-                  </a>
-                </li>
-              </ul>                  
             </li>
-      
+            <li class="nav-item">
+              <a href="fichas" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>fichas</p>
+              </a>
+            </li>
+          </ul>
+        </li>
 
         <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="fas fa-desktop"></i>
-                <p>
-                  Equipos
-                  <i class="fas fa-angle-left right"></i>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="inventario" class="nav-link">
-                    
-                    <p>Inventario</p>
-                  </a>
-                </li>
-                
-                <li class="nav-item">
-                  <a href="recepcion" class="nav-link">
-                    
-                    <p>Recepcion/Traspaso</p>
-                  </a>
-                </li>
-              </ul>
-          </li>
-
-          <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="fas fa-folder"></i>
-                <p>
-                  Solicitudes
-                  <i class="fas fa-angle-left right"></i>
-                  
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="reserva" class="nav-link">
-                    
-                    <p>Reserva</p>
-                  </a>
-                </li>
-                
-                <li class="nav-item">
-                  <a href="inmediata" class="nav-link">
-                    
-                    <p>Inmediata</p>
-                  </a>
-                </li>
-              </ul>
-          </li>
-
-          <li class="nav-item">
-              <a href="#" class="nav-link">
-                <i class="fas fa-pencil-alt"></i>
-                <p>
-                  Autorizar
-                  <i class="fas fa-angle-left right"></i>
-                  <span class="badge badge-info right">6</span>
-                </p>
-              </a>
-              <ul class="nav nav-treeview">
-                <li class="nav-item">
-                  <a href="autorizaciones" class="nav-link">
-                    
-                    <p>Autorizaciones</p>
-                  </a>
-                </li>
-                
-                <li class="nav-item">
-                  <a href="solicitud" class="nav-link">
-                    
-                    <p>Solicitudes Vencidas</p>
-                  </a>
-                </li>
-              </ul>
-          </li>
-
-          <li class="nav-item">
-              <a href="devoluciones" class="nav-link">
-                <i class="fas fa-arrow-left"></i>
-                <p>
-                  Devoluciones
-                  <span class="badge badge-info right">+1</span>
-                </p>
-              </a>
-              
-          </li>
-
-          <li class="nav-item">
-              <a href="salidas" class="nav-link">
-                <i class="fas fa-sign-out-alt"></i>
-                <p>
-                  Salidas            
-                  <span class="badge badge-info right">+99</span>
-                </p>
-              </a>
-            
-          </li>
-
-          <li class="nav-item">
-              <a href="reportes" class="nav-link">
-                <i class="fas fa-chart-bar"></i>
-                <p>
-                  Reportes
-                  <span class="badge badge-info right">+55</span>
-                </p>
-              </a>
-              
-          </li>
-        </nav>
-        <!-- /.sidebar-menu -->
-      </div>
-      <!-- /.sidebar -->
-  </aside>
+          <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-user-alt"></i>
+            <p>
+              Usuario
+              <i class="fas fa-angle-left right"></i>
+              <span class="badge badge-info right">6</span>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
